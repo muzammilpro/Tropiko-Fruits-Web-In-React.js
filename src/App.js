@@ -1,14 +1,16 @@
 import HomePage from './Pages/HomePage';
 import './App.css';
-import Bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import '../node_modules/bootstrap/dist/js/bootstrap'
+import './css/Style.css'
 
 
 function App() {
   return (
     <div className="App">
-      
 
-      <HomePage/>
+
+      <HomePage />
 
     </div>
   );
