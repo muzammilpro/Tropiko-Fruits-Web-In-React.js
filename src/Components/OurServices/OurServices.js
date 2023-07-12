@@ -16,6 +16,8 @@ export default function OurServices() {
         <div className="cont">
 
             <Cards />
+            <Cards />
+            <Cards />
            
             
 
