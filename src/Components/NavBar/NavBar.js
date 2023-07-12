@@ -1,4 +1,5 @@
-import React from 'react';
+import Img1 from '../../Images/logo.png';
+import Img2 from '../../Images/search-icon.png'
 
 export default function NavBar() {
     return (
@@ -7,7 +8,7 @@ export default function NavBar() {
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container">
                         <a className="navbar-brand" href="#">
-                            <img src="./images/logo.png" style={{ width: '50px' }} alt="" />
+                            <img src={Img1} style={{ width: '50px' }} alt="" />
                             <span className="fw-bold m-2">TROPIKO</span>
                         </a>
                         <button
@@ -38,7 +39,7 @@ export default function NavBar() {
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link active me-lg-5" href="https://www.facebook.com/profile.php?id=100085130599968" target="_blank">
-                                        <img src="./images/search-icon.png" alt="Search" />
+                                        <img src={Img2} alt="Search" />
                                     </a>
                                 </li>
                             </ul>
