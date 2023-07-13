@@ -3,6 +3,7 @@ import Header from '../Components/Header/Header'
 import CardsSection from '../Components/OurServices/OurServices'
 import FreshFruit from '../Components/FreshFruit/FreshFruit'
 import TestimonialSection from '../Components/TestimonialSection/TestimonialSection'
+import ContactUs  from '../Components/ContactUs/ContactUs'
 
 export default function HomePage() {
   return (
@@ -23,6 +24,7 @@ export default function HomePage() {
         <br />
 
         <TestimonialSection />
+        <ContactUs />
 
         
       
