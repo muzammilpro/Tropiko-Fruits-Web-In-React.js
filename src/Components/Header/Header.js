@@ -1,4 +1,5 @@
 import Img1 from '../../Images/slide-img.png'
+import Button from '../Buttons/Buttons'
 
 export default function Header() {
     return (
@@ -14,10 +15,17 @@ export default function Header() {
                                 expedita
                                 eaque ea molestiae?</p>
                             <br />
-                                <button type="button" id="btn1" className="btn btn-primary">Shop Now</button>
-                                <button type="button" className="btn btn-dark">Contact Us</button>
+                                <div>
+                                <span>
+                                 
+                                <Button />
+                                </span>
+                                
+                                </div>
+                                
                             </div>
                             <div className="container3">
+
                                 <img src={Img1} alt="img" width="60%" height="50%" />
 
                             </div>
