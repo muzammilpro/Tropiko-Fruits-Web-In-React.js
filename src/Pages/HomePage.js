@@ -10,7 +10,14 @@ export default function HomePage() {
         <NavBar />
         <Header />
         <CardsSection />
+        <center>
+                <h1>Fresh Fruits</h1><br />
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus quia vero nobi</p>
+            </center> <br />
         <FreshFruit />
+        <FreshFruit />
+        <FreshFruit />
+        
       
 
     </div>
