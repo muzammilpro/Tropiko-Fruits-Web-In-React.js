@@ -2,6 +2,7 @@ import NavBar from '../Components/NavBar/NavBar'
 import Header from '../Components/Header/Header'
 import CardsSection from '../Components/OurServices/OurServices'
 import FreshFruit from '../Components/FreshFruit/FreshFruit'
+import TestimonialSection from '../Components/TestimonialSection/TestimonialSection'
 
 export default function HomePage() {
   return (
@@ -17,6 +18,12 @@ export default function HomePage() {
         <FreshFruit />
         <FreshFruit />
         <FreshFruit />
+
+        <br />
+        <br />
+
+        <TestimonialSection />
+
         
       
 
