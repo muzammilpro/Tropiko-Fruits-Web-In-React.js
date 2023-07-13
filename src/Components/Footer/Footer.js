@@ -1,4 +1,7 @@
-import React from 'react'
+import Img1 from '../../Images/fb.png'
+import Img2 from '../../Images/twitter.png'
+import Img3 from '../../Images/linkedin.png'
+import Img4 from '../../Images/instagram.png'
 
 export default function Footer() {
     return (
@@ -27,10 +30,10 @@ export default function Footer() {
                 </div>
                 <div>
                     <h4>Follow Us</h4><br />
-                    <div> <img src="./images/fb.png" alt="" />
-                        <img src="./images/twitter.png" alt="" />
-                        <img src="./images/linkedin.png" alt="" />
-                        <img src="./images/instagram.png" alt="" /> <br />
+                    <div> <img src={Img1} alt="" />
+                        <img src={Img2} alt="" />
+                        <img src={Img3} alt="" />
+                        <img src={Img4} alt="" /> <br />
                         <h4>Subscribe Now</h4><br />
                         <input type="text" /> <br />
                             <button type="button" id="btn1" className="btn btn-primary">Subscribe</button>
@@ -43,7 +46,7 @@ export default function Footer() {
                 <footer>
                     <div className="footer">
                         <center>
-                            <p> copyright &#169 All Right Reserved By Muzammil Husnain</p>
+                            <p> copyright &copy; All Right Reserved By Muzammil Husnain</p>
                         </center>
                     </div>
                 </footer>

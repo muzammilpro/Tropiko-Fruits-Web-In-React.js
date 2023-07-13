@@ -4,6 +4,7 @@ import CardsSection from '../Components/OurServices/OurServices'
 import FreshFruit from '../Components/FreshFruit/FreshFruit'
 import TestimonialSection from '../Components/TestimonialSection/TestimonialSection'
 import ContactUs  from '../Components/ContactUs/ContactUs'
+import Footer from '../Components/Footer/Footer'
 
 export default function HomePage() {
   return (
@@ -26,9 +27,11 @@ export default function HomePage() {
         <TestimonialSection />
         <ContactUs />
 
+
         <br />
         <br />
 
+        <Footer />
         
       
 
