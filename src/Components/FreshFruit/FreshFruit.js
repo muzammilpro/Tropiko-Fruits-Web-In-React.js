@@ -1,12 +1,12 @@
 import FreshFruitsCards from '../FreshFruitsCards/FreshFruitsCards'
 
-export default function FreshFruit() {
+export default function FreshFruit(props) {
   return (
     <div>
       <div>
             
 
-                <FreshFruitsCards />
+                <FreshFruitsCards scr={props.scr} />
             
 
             

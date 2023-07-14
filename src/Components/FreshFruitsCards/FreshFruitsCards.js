@@ -1,7 +1,7 @@
 import Img1 from '../../Images/orange.png'
 import Button from '../BuyNowButton/BuyNowButton'
 
-export default function FreshFruitsCards() {
+export default function FreshFruitsCards(props) {
   return (
     <div>
       <div className="cont5">
@@ -15,7 +15,7 @@ export default function FreshFruitsCards() {
                         <Button />
                     
                 </div>
-                <div><img src={Img1} alt="img" /></div>
+                <div><img src={props.scr} alt="img" /></div>
             </div>
     </div>
   )
