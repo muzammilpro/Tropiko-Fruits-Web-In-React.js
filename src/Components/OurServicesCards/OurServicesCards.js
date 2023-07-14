@@ -1,11 +1,10 @@
-import Img1 from '../../Images/card-item-1.png'
 
-export default function OurServicesCards() {
+export default function OurServicesCards(props) {
   return (
     <div>
       <div className="card" style={{width: "18rem"}}>
                 <center>
-                    <img className="card-img-top" src={Img1} alt="#" />
+                    <img className="card-img-top" src={props.scr} alt="#" />
                 </center>
                 <div className="card-body">
                     <center>
