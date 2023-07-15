@@ -46,7 +46,7 @@ export default function Footer() {
                 <footer>
                     <div className="footer">
                         <center>
-                            <p> copyright &copy; All Right Reserved By Muzammil Husnain</p>
+                            <p> Copyright &copy; All Right Reserved By Muzammil Husnain</p>
                         </center>
                     </div>
                 </footer>
